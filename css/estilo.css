@@ -1,0 +1,282 @@
+/*--FONTES--*/
+
+@font-face {
+font-family: 'MyriadPro-BoldCond';
+src: url('../fonts/MyriadPro-BoldCond.eot');
+
+src: local('MyriadPro-BoldCond'),
+	local("Myriad Pro Bold Condesed"),
+
+	url('../fonts/MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MyriadPro-BoldCond.woff') format('woff'),
+	url('../fonts/MyriadPro-BoldCond.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+font-family: 'MyriadPro-Cond';
+src: url('../fonts/MyriadPro-Cond.eot');
+
+src: local('MyriadPro-Cond'),
+	local("Myriad Pro Condesed"),
+
+	url('../fonts/MyriadPro-Cond.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MyriadPro-Cond.woff') format('woff'),
+	url('../fonts/MyriadPro-Cond.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+font-family: 'MyriadPro-Regular';
+src: url('../fonts/MyriadPro-Regular.eot');
+
+src: local('MyriadPro-Regular'),
+	local("Myriad Pro Regular"),
+
+	url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MyriadPro-Regular.woff') format('woff'),
+	url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*--BODY, CABECALHO--*/
+
+body{
+	background: transparent url(../img/imagens/background.png) top center no-repeat;
+}
+
+#wrap{
+	margin: 0 auto;
+	width: 775px;
+}
+
+header{
+	height:360px;
+}
+
+#logo{
+	display: inline-block;
+	width: 166;
+	margin: 11px 0 0 44px;
+}
+
+#menu{
+	display: inline-block;
+	float: right;
+	margin: 15px 35px 0 0;
+}
+
+#menu a{
+	padding: 0 24px;
+	font-family: 'MyriadPro-BoldCond';
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+}
+
+#banner .btn{
+	display: inline-block;
+	color: #FFF;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #514d47, #3d3a36);
+	margin: 190px 0 0 460px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.icon-plus{
+	display: inline-block;
+	background-image: url(../img/imagens/bottom.png);
+	height: 10px;
+	margin: 0 5px;
+	width: 10px;
+}
+
+/*--CSS PARA TODOS--*/
+
+#conteudo{
+	display: inline-block;
+	margin: 0 0 0 70px;
+}
+
+#conteudo h1{
+	font-family: 'MyriadPro-Cond';
+	font-size: 28px;
+	font-weight: normal;
+}
+
+#conteudo h1 span{
+	color: #abb820;
+}
+
+#conteudo p{
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+hr{
+	height:2px;
+	border-width: 0;
+	border-top: 1px dotted #cdcdcd; 
+}
+
+/*--POSICIONAMENTO CONTEUDO--*/
+
+#esquerdo{
+	float: left;
+	width: 300px;
+	margin: 0 20px 0 0;
+}
+
+#direito{
+	float: left;
+	width: 300px;
+	margin: 0 0 0 20px;
+}
+
+/*--QUADRO 1--*/
+
+#quadro1 p span{
+	font-family: Arial;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #cdcdcd;
+}
+
+#quadro1 img{
+	float: left;
+}
+
+#quadro1 h2{
+	display: block;
+	float: left; 
+	width: 120px;
+	margin: 0px 10px 0px 0px;
+	padding: 0 0 0 15px;
+	font-family:  Tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: #abb820;
+}
+
+#quadro1 p a{
+	color: #848484;
+}
+
+/*--POSICIONAMENTO IMAGENS--*/
+
+#left{
+	float: left;
+	width: 135px;
+	margin-right: 20px;
+}
+
+#right{
+	float: left;
+	width: 135px;
+}
+
+/*--QUADRO 2--*/
+
+#quadro2 img{
+	float: left;
+	margin-right: 10px;
+}
+
+.notmargin{
+	margin-top: -10px;
+}
+
+
+#quadro2 p a{
+	width: 100px;
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #848484;
+}
+
+#quadro2 h2{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #abb820;
+}
+
+/*--QUADRO 3--*/
+
+#quadro3 p{
+	color: #848484;
+}
+
+#quadro3 p span{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #abb820;
+}
+
+#quadro3 ul{;
+	list-style-type: none
+}
+
+#quadro3 li{
+	margin: 5px 0 0 -30px;
+}
+
+#quadro3 i{
+    display: inline-block;
+	background-image: url(../img/imagens/seta.png);
+	height: 10px;
+	margin: 0 5px;
+	width: 9px;
+}
+
+#quadro3 a{
+	font-family: Tahoma;
+	font-size: 10px;
+	text-decoration: none;
+	color: #000;
+}
+
+/*--QUADRO 4--*/
+
+#quadro4 img{
+	float: left;
+    margin-right: 10px;
+}
+
+#quadro4 h2{
+	font-family: 'MyriadPro-Regular';
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #abb820;
+}
+
+#quadro4 h2 span{
+	font-family: 'MyriadPro-BoldCond';
+}
+
+#quadro4 p a{
+	color: #848484;
+}
+
+/*--FOOTER--*/
+
+.rodape{
+	width: 100%;
+	padding: 10px 0 10px 0;
+	font-size: 12px;
+	text-align: center;
+	background-color: #E8E8E8;
+	color: #848484;
+}
+
+.rodape a{
+	text-decoration: none;
+	color: #848484;
+}
+
+
