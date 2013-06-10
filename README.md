@@ -16,5 +16,5 @@ HTML5, CSS3, GIT, GITHUB.
 # 3.RECURSOS UTILIZADOS
 paragrafo
 Referências:
-Layout PSD, Download Gratuito, LINK - http://br.freepik.com/index.php?goto=41&idd=597752&url=aHR0cDovL3hvb3BsYXRlLmNvbS90ZW1wbGF0ZS9kZXRhaWxzLzI2MjctZWNvLWJ1c2luZXNzLXBzZC10ZW1wbGF0ZQ==
+Layout PSD, Download Gratuito, LINK - [Freepik]{http://br.freepik.com/index.php?goto=41&idd=597752&url=aHR0cDovL3hvb3BsYXRlLmNvbS90ZW1wbGF0ZS9kZXRhaWxzLzI2MjctZWNvLWJ1c2luZXNzLXBzZC10ZW1wbGF0ZQ==}
 Realizado em 14/05/2013.
