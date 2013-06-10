@@ -103,6 +103,7 @@ header{
 }
 
 #conteudo h1{
+	margin-bottom: -10px;
 	font-family: 'MyriadPro-Cond';
 	font-size: 28px;
 	font-weight: normal;
@@ -120,7 +121,7 @@ header{
 hr{
 	height:2px;
 	border-width: 0;
-	border-top: 1px dotted #cdcdcd; 
+	border-top: 1px dotted #cdcdcd;
 }
 
 /*--POSICIONAMENTO CONTEUDO--*/
@@ -218,11 +219,12 @@ hr{
 }
 
 #quadro3 ul{;
+	margin: 5px 0 40px 0;
 	list-style-type: none
 }
 
 #quadro3 li{
-	margin: 5px 0 0 -30px;
+	margin: 0 0 0 -40px;
 }
 
 #quadro3 i{
